@@ -1,3 +1,4 @@
+#! /usr/bin/env node
 import chalk from "chalk";
 import fs from "fs";
 import minimist from "minimist";
@@ -236,7 +237,7 @@ async function init () {
     }
     console.log(`  npm install`)
     console.log(`  npm run dev`)
-    console.log()
+    console.log(``)
     
 }
 
